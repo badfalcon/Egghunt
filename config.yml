@@ -1,0 +1,8 @@
+# default config.yml
+Block:
+  inWater: true
+  inLava: true
+  onSnow: true
+Possibility: 100
+Game:
+  GameTime: 5 #min

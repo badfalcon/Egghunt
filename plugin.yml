@@ -1,0 +1,21 @@
+name: Egghunt
+main: com.github.badfalcon.Easter.EasterMain
+version: 1.0
+commands:
+  egghunt:
+    description: settings of the egghunt plugin.
+    usage: /egghunt
+    permission: egghunt
+    permission-message: You don't have permission.
+  r:
+    description: warp to the egghunt start
+    usage: /r
+    permission: respawn
+    permission-message: You don't have permission
+permissions:
+  egghunt:
+    description: allow you to access to the commands of the egghunt plugin.
+    default: op
+  respawn:
+    description: can respawn
+    default: true
